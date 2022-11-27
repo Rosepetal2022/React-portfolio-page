@@ -11,23 +11,22 @@ import {
   Routes,
   Route,
   Link,
- // BrowserRouter
 } from "react-router-dom";
 
 
 function NavbarComponent() {
   return (
     <Router>
-    <Navbar bg="light" expand="lg">
+    <Navbar bg="dark" expand="lg">
       <Container>
-        <Navbar.Brand href="#home">Rachel Spears</Navbar.Brand>
+        <Navbar.Brand className="text-light" href="#home">Rachel Spears</Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">
-            <Nav.Link as={Link} to="/about">About</Nav.Link>
-            <Nav.Link as={Link} to="/portfolio">Portfolio</Nav.Link>
-            <Nav.Link as={Link} to="/resume">Resume</Nav.Link>
-            <Nav.Link as={Link} to="/contact">Contact</Nav.Link>
+            <Nav.Link className="text-light" as={Link} to="/about">About</Nav.Link>
+            <Nav.Link className="text-light" as={Link} to="/portfolio">Portfolio</Nav.Link>
+            <Nav.Link className="text-light" as={Link} to="/resume">Resume</Nav.Link>
+            <Nav.Link className="text-light" as={Link} to="/contact">Contact</Nav.Link>
           </Nav>
         </Navbar.Collapse>
       </Container>

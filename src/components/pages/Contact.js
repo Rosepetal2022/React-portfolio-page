@@ -1,6 +1,8 @@
 import React from 'react'
+import { TabTitle } from '../../utils/helpers';
 
 const Contact = () => {
+    TabTitle('Contact');
     return (
         <div>
             <h1>Contact</h1>
