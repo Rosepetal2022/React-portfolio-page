@@ -5,7 +5,7 @@ const About = () => {
     TabTitle('About');
     return (
         <div>
-            <h1>About</h1>
+            <h1 className="text-center">About</h1>
         </div>
     )
 }

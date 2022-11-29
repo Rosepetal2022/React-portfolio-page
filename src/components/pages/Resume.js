@@ -5,8 +5,9 @@ const Resume = () => {
     TabTitle('Resume')
     return (
         <div>
-            <h1>Resume</h1>
+            <h1 className="text-center">Resume</h1>
         </div>
+
     )
 }
 
