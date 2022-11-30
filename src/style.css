@@ -4,6 +4,28 @@ main {
     padding: 50px 30px;
 }
 
-.portfolio-box-one {
-    border: 2px solid black;
+.custom-card-image {
+    width: 100%;
+    align-self: center;
+}
+
+.custom-card {
+    margin-top: 60px;
+}
+
+.url-link {
+    width: 50px;
+    margin-bottom: 40px;
+    margin-left: 20px;
+}
+
+
+.devicon-github-original-wordmark {
+    font-size: 3rem;
+    margin: 1rem;
+}
+
+.devicon-heroku-plain-wordmark {
+    font-size: 3rem;
+    margin: 1rem;
 }
