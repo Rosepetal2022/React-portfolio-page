@@ -2,21 +2,16 @@ import React from 'react';
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
-import About from "./pages/About";
-import Contact from "./pages/Contact";
-import Portfolio from "./pages/Portfolio";
-import Resume from "./pages/Resume";
 import {
-  BrowserRouter as Router,
-  Routes,
-  Route,
-  Link,
+  Link
 } from "react-router-dom";
 
 
+
 function NavbarComponent() {
+  
   return (
-    <Router>
+    <>
     <Navbar bg="dark" expand="lg">
       <Container>
         <Navbar.Brand className="text-light" href="#home">Rachel Spears</Navbar.Brand>
@@ -31,22 +26,12 @@ function NavbarComponent() {
         </Navbar.Collapse>
       </Container>
     </Navbar>
-    <div>
-      
-        <Routes>
-          <Route path="/about" element={<About />} />
-        </Routes>
-        <Routes>
-          <Route path="/portfolio" element={<Portfolio />} />
-        </Routes>
-        <Routes>
-          <Route path="/resume" element={<Resume />} />
-        </Routes>
-        <Routes>
-          <Route path="/contact" element={<Contact />} />
-        </Routes>
-    </div>
-    </Router>
+   
+    </>  
+
+
+
+
   );
 }
 

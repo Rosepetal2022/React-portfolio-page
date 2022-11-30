@@ -22,7 +22,7 @@ const Portfolio = () => {
             image: 'images/get-flix.png',
             link: 'https://apatheticjedi.github.io/get-flix-and-chill/',
             repo: 'https://github.com/apatheticjedi/get-flix-and-chill',
-            description: 'The purpose of this app was to create a page that will pair a randomized movie with a cannabis strain.',
+            description: 'The purpose of this app was to create a page that will pair a randomized movie with a cannabis strain. This was a group project using The Movie Database and Otreeba Open Cannabis API',
             languages: 'HTML, CSS, Javascript, jQuery, MD Bootstrap'
         },
         {

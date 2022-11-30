@@ -4,6 +4,8 @@ main {
     padding: 50px 30px;
 }
 
+
+/*Design for Portfolio Page Starts*/
 .custom-card-image {
     width: 100%;
     align-self: center;
@@ -12,6 +14,8 @@ main {
 .custom-card {
     margin-top: 60px;
 }
+
+
 
 .url-link {
     width: 50px;
@@ -28,4 +32,23 @@ main {
 .devicon-heroku-plain-wordmark {
     font-size: 3rem;
     margin: 1rem;
+}
+
+/*Design for Portfolio Page Ends*/
+
+/*Design for Contact Page Starts*/
+.custom-form {
+    margin-top: 5%;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+.contact-button {
+    margin-top: 2%;
+}
+
+/*Design for Contact Page Ends*/
+
+.custom-footer {
+    color: red;
 }
