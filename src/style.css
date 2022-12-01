@@ -4,8 +4,23 @@ main {
     padding: 50px 30px;
 }
 
+:root {
+    --primary-color: #cae9ff;
+    --secondary-color: #5fa8d3;
+    --tertiary-color: #62b6cb;
+    --quaternary-color: #1b4965;
+
+    
+}
+
 
 /*Design for Portfolio Page Starts*/
+.portfolio-main-div {
+    background-color: var(--primary-color);
+    margin-top: 0rem;
+    padding-bottom: 10%;
+}
+
 .custom-card-image {
     width: 100%;
     align-self: center;
@@ -49,6 +64,39 @@ main {
 
 /*Design for Contact Page Ends*/
 
-.custom-footer {
-    color: red;
+/*Design for About Page starts here*/
+.main-about-div {
+    background-color: var(--secondary-color);
 }
+.about-paragraph {
+    background-color: var(--primary-color);
+    padding: 5%;
+    border-radius: 30px;
+    box-shadow: 0px 0px 15px rgb(14, 8, 8);
+}
+
+.top-about-div {
+    padding-bottom: 5%;
+}
+
+.icon {
+    font-size: 4rem;
+}
+
+.skills {
+    font-size: 2rem;
+}
+
+/*footer styling*/
+.footer-div {
+    background-color: var(--tertiary-color);
+}
+
+/*navbar styling*/
+.nav-bar {
+    background-color: var(--quaternary-color);
+    margin-bottom: 0%;
+}
+
+
+

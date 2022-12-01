@@ -1,13 +1,12 @@
 import { TabTitle } from '../../utils/helpers';
 import '../../style.css';
+import "bootstrap/dist/css/bootstrap.min.css";
 import Card from 'react-bootstrap/Card';
-import Col from 'react-bootstrap/Col';
-import Row from 'react-bootstrap/Row';
-import Container from 'react-bootstrap/Container';
+
+
 
 const Portfolio = () => {
     TabTitle('Portfolio');
-
     const projects = [
         {
             name: 'Xdream',
@@ -52,34 +51,34 @@ const Portfolio = () => {
     ]
     return (
         <>
-            <h1 className="text-center mt-4">Portfolio</h1>
-            <Container>
-                <Row>
+        <div className="portfolio-main-div">
+            <h1 className="text-center">Portfolio</h1>
+            <div className="container">
+                <div className="row d-flex justify-content-between">
                     {projects.map((project, i) => (
-                        <Col>
-                            <div className="projects" key={i}>
-                                <div>
-                                    <Card style={{ width: '25rem' }} className="custom-card col-12 mt-6">
-                                        <div className="custom-card-image">
-                                            <Card.Img variant="top" src={project.image} />
-                                        </div>
-                                        <Card.Body className="text-center">
-                                            <Card.Title>{project.name}</Card.Title>
-                                            <Card.Text>
-                                                {project.description}
-                                            </Card.Text>
-                                        </Card.Body>
-                                        <Card.Footer className="text-center">
-                                            <a href={project.repo} className="github-anchor"><i className="devicon-github-original-wordmark colored"></i></a>
-                                            <a href={project.link} className="link-anchor"><img className="url-link" alt="" src="images/link.png"></img></a>
-                                        </Card.Footer>
-                                    </Card>
-                                </div>
+                        <div className="col-6 projects" key={i}>
+                            <div>
+                                <Card style={{ width: '25rem' }} className="custom-card col-12 mt-6">
+                                    <div className="custom-card-image">
+                                        <Card.Img variant="top" src={project.image} />
+                                    </div>
+                                    <Card.Body className="text-center">
+                                        <Card.Title>{project.name}</Card.Title>
+                                        <Card.Text>
+                                            {project.description}
+                                        </Card.Text>
+                                    </Card.Body>
+                                    <Card.Footer className="text-center">
+                                        <a href={project.repo} className="github-anchor"><i className="devicon-github-original-wordmark colored"></i></a>
+                                        <a href={project.link} className="link-anchor"><img className="url-link" alt="" src="images/link.png"></img></a>
+                                    </Card.Footer>
+                                </Card>
                             </div>
-                        </Col>
+                        </div>
                     ))}
-                </Row>
-            </Container>
+                </div>
+            </div>
+            </div>
         </>
 
     );

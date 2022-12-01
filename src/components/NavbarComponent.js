@@ -1,5 +1,6 @@
 import React from 'react';
 import Container from 'react-bootstrap/Container';
+import '../style.css';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import {
@@ -12,7 +13,7 @@ function NavbarComponent() {
   
   return (
     <>
-    <Navbar bg="dark" expand="lg">
+    <Navbar className="nav-bar" expand="lg">
       <Container>
         <Navbar.Brand className="text-light" href="#home">Rachel Spears</Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
@@ -26,8 +27,7 @@ function NavbarComponent() {
         </Navbar.Collapse>
       </Container>
     </Navbar>
-   
-    </>  
+  </>  
 
 
 
