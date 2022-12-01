@@ -40,30 +40,30 @@ const Contact = () => {
         }
     };
     return (
-        <div>
-            <h1 className="text-center">Contact</h1>
+        <div className="contact-main-div">
+            <h1 className="text-center font-second">Contact</h1>
             <div className="custom-form">
                 <Form onSubmit={handleSubmit}>
                     <Form.Group as={Row} className="mb-3" controlId="formHorizontalEmail">
-                        <Form.Label column sm={2}>
+                        <Form.Label className="font-second" column sm={2}>
                             Name:
                         </Form.Label>
                         <Col sm={10}>
-                            <Form.Control type="text" name="name" defaultValue={name} placeholder="Name" onBlur={handleChange} />
+                            <Form.Control className="font" type="text" name="name" defaultValue={name} placeholder="Name" onBlur={handleChange} />
                         </Col>
                     </Form.Group>
 
                     <Form.Group as={Row} className="mb-3" controlId="formHorizontalPassword">
-                        <Form.Label column sm={2}>
+                        <Form.Label className="font-second" column sm={2}>
                             Email:
                         </Form.Label>
                         <Col sm={10}>
-                            <Form.Control type="email" name="email" defualtValue={email} placeholder="Email" onBlur={handleChange} />
+                            <Form.Control className="font" type="email" name="email" defualtValue={email} placeholder="Email" onBlur={handleChange} />
                         </Col>
                     </Form.Group>
 
 
-                    <FloatingLabel controlId="floatingTextarea2" label="Comments">
+                    <FloatingLabel className="font" controlId="floatingTextarea2" label="Comments">
                         <Form.Control
                             as="textarea"
                             placeholder="Leave a comment here"
@@ -71,6 +71,7 @@ const Contact = () => {
                             name="message"
                             defualtValue={message}
                             onBlur={handleChange}
+                            className="font"
                         />
                     </FloatingLabel>
                     {errorMessage && (
@@ -78,7 +79,7 @@ const Contact = () => {
                             <p className="error-text">{errorMessage}</p>
                         </div>
                     )}
-                    <Button className="contact-button" variant="primary" type="submit">
+                    <Button className="contact-button font" variant="primary" type="submit">
                         Submit
                     </Button>
 

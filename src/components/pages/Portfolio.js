@@ -18,7 +18,7 @@ const Portfolio = () => {
         },
         {
             name: 'Get Flix and Chill',
-            image: 'images/get-flix.png',
+            image: 'images/get_flix.png',
             link: 'https://apatheticjedi.github.io/get-flix-and-chill/',
             repo: 'https://github.com/apatheticjedi/get-flix-and-chill',
             description: 'The purpose of this app was to create a page that will pair a randomized movie with a cannabis strain. This was a group project using The Movie Database and Otreeba Open Cannabis API',
@@ -52,19 +52,18 @@ const Portfolio = () => {
     return (
         <>
         <div className="portfolio-main-div">
-            <h1 className="text-center">Portfolio</h1>
+            <h1 className="text-center font-second">Portfolio</h1>
             <div className="container">
-                <div className="row d-flex justify-content-between">
+                <div className="row d-flex">
                     {projects.map((project, i) => (
-                        <div className="col-6 projects" key={i}>
-                            <div>
-                                <Card style={{ width: '25rem' }} className="custom-card col-12 mt-6">
+                        <div className="projects" key={i}>
+                            <Card className="col-6 custom-card mt-6">
                                     <div className="custom-card-image">
-                                        <Card.Img variant="top" src={project.image} />
+                                        <Card.Img className="inside-card-image" variant="top" src={project.image} />
                                     </div>
                                     <Card.Body className="text-center">
-                                        <Card.Title>{project.name}</Card.Title>
-                                        <Card.Text>
+                                        <Card.Title className="font-second">{project.name}</Card.Title>
+                                        <Card.Text className="font">
                                             {project.description}
                                         </Card.Text>
                                     </Card.Body>
@@ -73,12 +72,13 @@ const Portfolio = () => {
                                         <a href={project.link} className="link-anchor"><img className="url-link" alt="" src="images/link.png"></img></a>
                                     </Card.Footer>
                                 </Card>
-                            </div>
+                            
                         </div>
                     ))}
                 </div>
+                </div>
             </div>
-            </div>
+            
         </>
 
     );

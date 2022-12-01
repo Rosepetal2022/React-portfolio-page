@@ -1,4 +1,5 @@
 import React from 'react';
+import "bootstrap/dist/css/bootstrap.min.css";
 import Container from 'react-bootstrap/Container';
 import '../style.css';
 import Nav from 'react-bootstrap/Nav';
@@ -13,9 +14,9 @@ function NavbarComponent() {
   
   return (
     <>
-    <Navbar className="nav-bar" expand="lg">
+    <Navbar className="nav-bar font" expand="lg">
       <Container>
-        <Navbar.Brand className="text-light" href="#home">Rachel Spears</Navbar.Brand>
+        <Navbar.Brand className="text-light py-4"  href="#home">Rachel Spears</Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">

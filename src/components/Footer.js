@@ -8,10 +8,13 @@ const Footer = () => {
         <>
         <nav class="navbar fixed-bottom footer-div">
             <div class="container-fluid">
+                <div className="footer-icon-div">
+                <a href="https://github.com/Rosepetal2022"><i class="devicon-github-original colored"></i></a>
+                <a href="mailto:marcotter25@yahoo.com"><img className="footer-link" alt="" src="images/email.png"></img></a>
+                <a href="https://www.linkedin.com/in/rachel-spears-05606888/"><img className="footer-link" alt="" src="images/linkedin.png"></img></a>
+                </div>
                 <div>
-                <a href="https://github.com/Rosepetal2022" className="github-anchor"><i className="devicon-github-original-wordmark colored"></i></a>
-                <a href="mailto:marcotter25@yahoo.com"><img className="url-link" alt="" src="images/email.png"></img></a>
-                <a href="https://www.linkedin.com/in/rachel-spears-05606888/"><img className="url-link" alt="" src="images/linkedin.png"></img></a>
+                <p className="font-second">&copy; Rachel Spears 2022</p>
                 </div>
             </div>
         </nav>
