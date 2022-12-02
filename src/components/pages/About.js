@@ -9,17 +9,15 @@ const About = () => {
             <div className="main-about-div">
                 <h1 className="text-center text-light font-second">About</h1>
                 <div className="top-about-div container">
-                  
-                        <div className="row about-paragraph mt-4 justify-content-start">
-                            <div className="about-photo-div col-2"><img className="about-photo" src="images/win-photo.png" alt=""></img></div>
-                        
-                        
-                        <div className="col-8 about-text font">I am currently attending a Full Stack Web Developer program by the University of Oregon and Trilogy Education. I am a hard working individual with a determined attitude. My background includes skill in managing, teaching and sales.</div>
-                        
-                        </div>
+                  <div className="row about-paragraph mt-4">
+                        <div className="col about-photo-div"><img className="about-photo" src="images/win-photo.png" alt=""></img></div>
+                        <div className="col about-text font">I am currently attending a Full Stack Web Developer program by the University of Oregon and Trilogy Education. I am a hard working individual with a determined attitude. My background includes skills in managing, teaching and sales.</div>
+                    </div>
                 </div>
-            </div>
-            <div className="container skills-container">
+           
+        
+            
+                <div className="container skills-container">
                 <p className="skills font-second">Skilled in the use of</p>
                 <p className="row flex-wrap">
                     <i className="icon col devicon-javascript-plain"></i>
@@ -33,7 +31,9 @@ const About = () => {
                     <i className="icon col devicon-express-original"></i>
                     <i className="icon col devicon-graphql-plain-wordmark"></i>
                 </p>
-            </div>
+                </div>
+                </div>
+           
         </>
     )
 }
