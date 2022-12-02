@@ -24,9 +24,9 @@ const Resume = () => {
 
                 </div>
             </div>
-            <div className="container resume-skills-div">
+            <div className="container-fluid resume-skills-div">
                 <div className="row ">
-                    <div className="col-6 col-sm-2">
+                    <div className="col">
                         <h3>Front End Skills</h3>
                         <ul>
                             <li>Javascript</li>
@@ -37,7 +37,7 @@ const Resume = () => {
                             <li>Variety of third party APIs</li>
                         </ul>
                     </div>
-                    <div className="col-6 col-sm-2">
+                    <div className="col-6">
                         <h3>Backend Skills</h3>
                         <ul>
                             <li>MySQL</li>
