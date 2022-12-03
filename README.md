@@ -5,49 +5,24 @@
 
 1. [Description](#description)
 2. [Built With](#built-with)
-3. [Contributing](#contributing)
-4. [Acknowledgments](#acknowledgments)
+3. [Acknowledgments](#acknowledgments)
+4. [Questions](#questions)
 
 ## Description
 
-
+This project is a page built in React to be my portfolio page. 
 
 
 ### Built With
 
 
 * JavaScript
+* React
 * HTML
 * CSS
 * Bootstrap
-* Node.js
-* Handlebars
+* React Bootstrap
 
-## Installation
-
-To install the application locally, clone this repo then type 
-~~~ 
-npm i 
-~~~ 
-into the command line to download all dependancies. To start running the server locally, type 
-~~~ 
-npm start 
-~~~ 
-into the command line. 
-
-<p align="right">(<a href="#top">back to top</a>)</p>
-
-## Usage
-
-To use the application, create a user profile with a username, email address, and password, then login to the site. Dream journal entries can be created on the Dashboard page, along with a category tag. Select the checkbox to make a dream public. Public dreams can be viewed on the Dreamscape Forum page. Users can comment on individual dreams by selecting the dream to view it individually.
-
-## Contributing
-
-This repo was created by the following GitHub users: 
-* [llacourciere](https://github.com/llacourciere)
-* [apatheticjedi](https://github.com/apatheticjedi)
-* [Rosepetal2022](https://github.com/Rosepetal2022)
-* [frieskevin](https://github.com/frieskevin)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -55,14 +30,19 @@ This repo was created by the following GitHub users:
 
 ## Acknowledgments
 
-* [AOS-Animate on scroll library](https://github.com/michalsnik/aos)
-* bcryptjs npm
-* connect-session-sequelize npm
-* dotenv npm
-* express npm
-* exress-session npm
-* mysql2 npm
-* sequelize npm
+* Coolers (A color generator website)
+* Pexels (Free images)
+* Google Fonts library
+* Devicon 
+
+## Questions
+
+  If you have any questions please contact me by email or GitHub.
+
+  Email: marcotter25@yahoo.com
+
+  GitHub: https://github.com/Rosepetal2022
+
 
 
 <p align="right">(<a href="#top">back to top</a>)</p>
