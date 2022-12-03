@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/about/static/css/main.6ab2545a.css",
+    "main.js": "/about/static/js/main.27c64d9f.js",
+    "static/media/pexels-bibek-ghosh-14553715.jpg": "/about/static/media/pexels-bibek-ghosh-14553715.53d0a27379b29d7e8bf1.jpg",
+    "static/media/pexels-adam-spinos-7293752.jpg": "/about/static/media/pexels-adam-spinos-7293752.853da40c7e35e58a914a.jpg",
+    "index.html": "/about/index.html",
+    "main.6ab2545a.css.map": "/about/static/css/main.6ab2545a.css.map",
+    "main.27c64d9f.js.map": "/about/static/js/main.27c64d9f.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6ab2545a.css",
+    "static/js/main.27c64d9f.js"
+  ]
+}
