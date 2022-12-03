@@ -25,7 +25,11 @@ This project is a page built in React to be my portfolio page.
 
 ## Deployed website
 
-https://rosepetal2022.github.io/portfolio
+https://rosepetal2022.github.io/React-portfolio-page/
+
+## Screenshot
+
+![This is an image](./src/assets/images/screenshot.png)
 
 ## Acknowledgments
 
