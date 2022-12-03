@@ -19,7 +19,7 @@ function App() {
       <Router>
         <NavbarComponent />
         <Routes>
-          <Route path="rosepetal2022.github.io/React-portfolio-page/" element={<About />} />
+          <Route path="*" element={<About />} />
           <Route path="/about" element={<About />} />
           <Route path="/portfolio" element={<Portfolio />} />
           <Route path="/resume" element={<Resume />} />
