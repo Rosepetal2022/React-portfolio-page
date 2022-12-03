@@ -10,8 +10,8 @@ const Footer = () => {
             <div class="container-fluid">
                 <div className="footer-icon-div">
                 <a href="https://github.com/Rosepetal2022"><i class="devicon-github-original colored"></i></a>
-                <a href="mailto:marcotter25@yahoo.com"><img className="footer-link" alt="" src="images/email.png"></img></a>
-                <a href="https://www.linkedin.com/in/rachel-spears-05606888/"><img className="footer-link" alt="" src="images/linkedin.png"></img></a>
+                <a href="mailto:marcotter25@yahoo.com"><img className="footer-link" alt="" src={require("../assets/images/email.png")}></img></a>
+                <a href="https://www.linkedin.com/in/rachel-spears-05606888/"><img className="footer-link" alt="" src={require("../assets/images/linkedin.png")}></img></a>
                 </div>
                 <div>
                 <p className="font-second">&copy; Rachel Spears 2022</p>

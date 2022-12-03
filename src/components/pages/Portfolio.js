@@ -10,7 +10,6 @@ const Portfolio = () => {
     const projects = [
         {
             name: 'Xdream',
-            image: 'images/Xdream.png',
             link: 'https://nameless-falls-05978.herokuapp.com/',
             repo: 'https://github.com/llacourciere/Xdream',
             description: 'This was a group project. It is a website that lets users write down and share their dreams.',
@@ -18,7 +17,6 @@ const Portfolio = () => {
         },
         {
             name: 'Get Flix and Chill',
-            image: 'images/get_flix.png',
             link: 'https://apatheticjedi.github.io/get-flix-and-chill/',
             repo: 'https://github.com/apatheticjedi/get-flix-and-chill',
             description: 'The purpose of this app was to create a page that will pair a randomized movie with a cannabis strain. This was a group project using The Movie Database and Otreeba Open Cannabis API',
@@ -26,7 +24,6 @@ const Portfolio = () => {
         },
         {
             name: 'The Tech Blog',
-            image: 'images/tech_blog.png',
             link: 'https://polar-coast-64539.herokuapp.com/',
             repo: 'https://github.com/Rosepetal2022/tech_blog',
             description: 'A CMS style blog that lets users make posts about tech news as well as comment on posts.',
@@ -34,7 +31,6 @@ const Portfolio = () => {
         },
         {
             name: 'Weather Dashboard',
-            image: 'images/weather-dashboard.png',
             link: 'https://rosepetal2022.github.io/Weather_Dashboard/',
             repo: 'https://github.com/Rosepetal2022/Weather_Dashboard',
             description: 'A weather app using open Weather API that allows users to search for the weather in any location and saves your past searches.',
@@ -42,7 +38,6 @@ const Portfolio = () => {
         },
         {
             name: 'Team Profile Generator',
-            image: 'images/team_profile_generator.png',
             link: 'https://polar-coast-64539.herokuapp.com/',
             repo: 'https://github.com/Rosepetal2022/Team_Profile_Generator',
             description: 'A CMS style blog that lets users make posts about tech news as well as comment on posts.',
@@ -50,7 +45,6 @@ const Portfolio = () => {
         },
         {
             name: 'Coding Quiz',
-            image: 'images/coding_quiz.png',
             link: ' https://rosepetal2022.github.io/Quiz_Game/',
             repo: 'https://github.com/Rosepetal2022/Quiz_Game',
             description: 'A quiz game on Javascript fundementals, with persistent high scores and a timer.',
@@ -63,10 +57,10 @@ const Portfolio = () => {
                 <h1 className="text-center font-second">Portfolio</h1>
                 <div className="container">
                     <div className="row justify-content-evenly">
-                        {projects.map((project, _i) => (
+                        {projects.map((project, i) => (
                             <Card className="custom-card">
                                 <div className="custom-card-image">
-                                    <Card.Img className="inside-card-image" variant="top" src={project.image} />
+                                    <Card.Img className="inside-card-image" variant="top" src={require(`../../assets/portfolio_images/${i}.png`)} alt={project.name} />
                                 </div>
                                 <Card.Body className="text-center">
                                     <Card.Title className="font-second">{project.name}</Card.Title>
@@ -76,7 +70,7 @@ const Portfolio = () => {
                                 </Card.Body>
                                 <Card.Footer className="text-center">
                                     <a href={project.repo} className="github-anchor"><i className="devicon-github-original-wordmark colored"></i></a>
-                                    <a href={project.link} className="link-anchor"><img className="url-link" alt="" src="images/link.png"></img></a>
+                                    <a href={project.link} className="link-anchor"><img className="url-link" alt="" src={require("../../assets/images/link.png")}></img></a>
                                 </Card.Footer>
                             </Card>
                         ))}

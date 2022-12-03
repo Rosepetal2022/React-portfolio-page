@@ -72,7 +72,7 @@
 
 /*Design for About Page starts*/
 .main-about-div {
-    background-image: url(../public/images/pexels-adam-spinos-7293752.jpg);
+    background-image: url(../src/assets/images/pexels-adam-spinos-7293752.jpg);
     background-size: 100%;
     background-repeat: no-repeat;
     height: 500px;
@@ -140,7 +140,7 @@
 /*Resume styling Starts*/
 
 .main-resume-div {
-        background-image: url(../public/images/pexels-bibek-ghosh-14553715.jpg);
+        background-image: url(../src/assets/images/pexels-bibek-ghosh-14553715.jpg);
         background-size: 100%;
         background-repeat: no-repeat;
         height: 400px;

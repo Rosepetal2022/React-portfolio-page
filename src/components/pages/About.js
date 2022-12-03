@@ -10,7 +10,7 @@ const About = () => {
                 <h1 className="text-center text-light font-second">About</h1>
                 <div className="top-about-div container">
                     <div className="row about-paragraph mt-4">
-                        <div className="col about-photo-div"><img className="about-photo" src="images/win_photo.png" alt=""></img></div>
+                        <div className="col about-photo-div"><img className="about-photo" src={require("../../assets/images/win_photo.png")} alt=""></img></div>
                         <div className="col about-text font">I am currently attending a Full Stack Web Developer program by the University of Oregon and Trilogy Education. I am a hard working individual with a determined attitude. My background includes skills in managing, teaching and sales.</div>
                     </div>
                 </div>
