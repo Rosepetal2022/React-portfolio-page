@@ -1,15 +1,22 @@
 {
   "files": {
     "main.css": "/React-portfolio-page/static/css/main.ec7b7835.css",
-    "main.js": "/React-portfolio-page/static/js/main.27c64d9f.js",
+    "main.js": "/React-portfolio-page/static/js/main.903dc910.js",
     "static/media/pexels-bibek-ghosh-14553715.jpg": "/React-portfolio-page/static/media/pexels-bibek-ghosh-14553715.53d0a27379b29d7e8bf1.jpg",
+    "static/media/win_photo.png": "/React-portfolio-page/static/media/win_photo.0313753e12418ec8a6b6.png",
     "static/media/pexels-adam-spinos-7293752.jpg": "/React-portfolio-page/static/media/pexels-adam-spinos-7293752.853da40c7e35e58a914a.jpg",
+    "static/media/1.png": "/React-portfolio-page/static/media/1.7d3ceaece133f294874d.png",
+    "static/media/0.png": "/React-portfolio-page/static/media/0.6c9bd6a6b212ca6e041c.png",
+    "static/media/3.png": "/React-portfolio-page/static/media/3.b9ecd52e5c0ff79c0c2c.png",
+    "static/media/4.png": "/React-portfolio-page/static/media/4.bd6ec7f18911094900f7.png",
+    "static/media/2.png": "/React-portfolio-page/static/media/2.e1a92958a9e659313c76.png",
+    "static/media/5.png": "/React-portfolio-page/static/media/5.fd4b41dfab46432e1835.png",
     "index.html": "/React-portfolio-page/index.html",
     "main.ec7b7835.css.map": "/React-portfolio-page/static/css/main.ec7b7835.css.map",
-    "main.27c64d9f.js.map": "/React-portfolio-page/static/js/main.27c64d9f.js.map"
+    "main.903dc910.js.map": "/React-portfolio-page/static/js/main.903dc910.js.map"
   },
   "entrypoints": [
     "static/css/main.ec7b7835.css",
-    "static/js/main.27c64d9f.js"
+    "static/js/main.903dc910.js"
   ]
 }
