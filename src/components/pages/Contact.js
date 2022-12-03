@@ -20,7 +20,7 @@ const Contact = () => {
         if (!errorMessage) {
             setFormState({ [e.target.name]: e.target.value });
             console.log(formState)
-        } 
+        }
     };
 
     const handleChange = (e) => {
@@ -52,7 +52,6 @@ const Contact = () => {
                             <Form.Control className="font" type="text" name="name" defaultValue={name} placeholder="Name" onBlur={handleChange} />
                         </Col>
                     </Form.Group>
-
                     <Form.Group as={Row} className="mb-3" controlId="formHorizontalPassword">
                         <Form.Label className="font-second" column sm={2}>
                             Email:
@@ -61,8 +60,6 @@ const Contact = () => {
                             <Form.Control className="font" type="email" name="email" defualtValue={email} placeholder="Email" onBlur={handleChange} />
                         </Col>
                     </Form.Group>
-
-
                     <FloatingLabel className="font" controlId="floatingTextarea2" label="Comments">
                         <Form.Control
                             as="textarea"
@@ -82,7 +79,6 @@ const Contact = () => {
                     <Button className="contact-button font" variant="primary" type="submit">
                         Submit
                     </Button>
-
                 </Form>
             </div>
         </div>

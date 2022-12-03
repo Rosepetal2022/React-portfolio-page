@@ -61,34 +61,28 @@ const Portfolio = () => {
         <>
             <div className="portfolio-main-div">
                 <h1 className="text-center font-second">Portfolio</h1>
-
                 <div className="container">
                     <div className="row justify-content-evenly">
-                {projects.map((project, _i) => (
-                    <Card className="custom-card">
-                        <div className="custom-card-image">
-                            <Card.Img className="inside-card-image" variant="top" src={project.image} />
-                        </div>
-                        <Card.Body className="text-center">
-                            <Card.Title className="font-second">{project.name}</Card.Title>
-                            <Card.Text className="font">
-                                {project.description}
-                            </Card.Text>
-                        </Card.Body>
-                        <Card.Footer className="text-center">
-                            <a href={project.repo} className="github-anchor"><i className="devicon-github-original-wordmark colored"></i></a>
-                            <a href={project.link} className="link-anchor"><img className="url-link" alt="" src="images/link.png"></img></a>
-                        </Card.Footer>
-                    </Card>
-
-
-                ))}
+                        {projects.map((project, _i) => (
+                            <Card className="custom-card">
+                                <div className="custom-card-image">
+                                    <Card.Img className="inside-card-image" variant="top" src={project.image} />
+                                </div>
+                                <Card.Body className="text-center">
+                                    <Card.Title className="font-second">{project.name}</Card.Title>
+                                    <Card.Text className="font">
+                                        {project.description}
+                                    </Card.Text>
+                                </Card.Body>
+                                <Card.Footer className="text-center">
+                                    <a href={project.repo} className="github-anchor"><i className="devicon-github-original-wordmark colored"></i></a>
+                                    <a href={project.link} className="link-anchor"><img className="url-link" alt="" src="images/link.png"></img></a>
+                                </Card.Footer>
+                            </Card>
+                        ))}
+                    </div>
+                </div>
             </div>
-            </div>
-            </div>
-
-
-
         </>
 
     );

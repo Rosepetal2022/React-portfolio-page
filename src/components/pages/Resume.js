@@ -23,32 +23,30 @@ const Resume = () => {
                     </div>
                 </div>
                 <div className="container-fluid resume-skills-div">
-                <div className="row ">
-                    <div className="col">
-                        <h3>Front End Skills</h3>
-                        <ul>
-                            <li>Javascript</li>
-                            <li>CSS</li>
-                            <li>HTML</li>
-                            <li>Bootstrap</li>
-                            <li>React</li>
-                            <li>Variety of third party APIs</li>
-                        </ul>
-                    </div>
-                    <div className="col">
-                        <h3>Backend Skills</h3>
-                        <ul>
-                            <li>MySQL</li>
-                            <li>MongoDD</li>
-                            <li>GraphQL</li>
-                            <li>Node.js</li>
-                            <li>Express</li>
-                        </ul>
+                    <div className="row ">
+                        <div className="col">
+                            <h3>Front End Skills</h3>
+                            <ul>
+                                <li>Javascript</li>
+                                <li>CSS</li>
+                                <li>HTML</li>
+                                <li>Bootstrap</li>
+                                <li>React</li>
+                                <li>Variety of third party APIs</li>
+                            </ul>
+                        </div>
+                        <div className="col">
+                            <h3>Backend Skills</h3>
+                            <ul>
+                                <li>MySQL</li>
+                                <li>MongoDD</li>
+                                <li>GraphQL</li>
+                                <li>Node.js</li>
+                                <li>Express</li>
+                            </ul>
+                        </div>
                     </div>
                 </div>
-            </div>
-
-           
             </div>
         </>
     );
