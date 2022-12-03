@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/React-portfolio-page/static/css/main.ec7b7835.css",
-    "main.js": "/React-portfolio-page/static/js/main.903dc910.js",
+    "main.css": "/React-portfolio-page/static/css/main.2fc99bf2.css",
+    "main.js": "/React-portfolio-page/static/js/main.95e95838.js",
     "static/media/pexels-bibek-ghosh-14553715.jpg": "/React-portfolio-page/static/media/pexels-bibek-ghosh-14553715.53d0a27379b29d7e8bf1.jpg",
     "static/media/win_photo.png": "/React-portfolio-page/static/media/win_photo.0313753e12418ec8a6b6.png",
     "static/media/pexels-adam-spinos-7293752.jpg": "/React-portfolio-page/static/media/pexels-adam-spinos-7293752.853da40c7e35e58a914a.jpg",
@@ -12,11 +12,11 @@
     "static/media/2.png": "/React-portfolio-page/static/media/2.e1a92958a9e659313c76.png",
     "static/media/5.png": "/React-portfolio-page/static/media/5.fd4b41dfab46432e1835.png",
     "index.html": "/React-portfolio-page/index.html",
-    "main.ec7b7835.css.map": "/React-portfolio-page/static/css/main.ec7b7835.css.map",
-    "main.903dc910.js.map": "/React-portfolio-page/static/js/main.903dc910.js.map"
+    "main.2fc99bf2.css.map": "/React-portfolio-page/static/css/main.2fc99bf2.css.map",
+    "main.95e95838.js.map": "/React-portfolio-page/static/js/main.95e95838.js.map"
   },
   "entrypoints": [
-    "static/css/main.ec7b7835.css",
-    "static/js/main.903dc910.js"
+    "static/css/main.2fc99bf2.css",
+    "static/js/main.95e95838.js"
   ]
 }
