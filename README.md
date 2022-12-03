@@ -23,10 +23,9 @@ This project is a page built in React to be my portfolio page.
 * Bootstrap
 * React Bootstrap
 
+## Deployed website
 
-<p align="right">(<a href="#top">back to top</a>)</p>
-
-
+https://rosepetal2022.github.io/portfolio
 
 ## Acknowledgments
 

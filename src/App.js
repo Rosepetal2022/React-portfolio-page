@@ -6,7 +6,7 @@ import Contact from "../src/components/pages/Contact";
 import Portfolio from "../src/components/pages/Portfolio";
 import Resume from "../src/components/pages/Resume";
 import {
-  BrowserRouter as Router,
+   HashRouter as Router,
   Routes,
   Route,
 } from "react-router-dom";
@@ -19,7 +19,7 @@ function App() {
       <Router>
         <NavbarComponent />
         <Routes>
-          <Route path="/React-portfolio-page" element={<About />} />
+          <Route path="/React-portfolio-page/" element={<About />} />
           <Route path="/about" element={<About />} />
           <Route path="/portfolio" element={<Portfolio />} />
           <Route path="/resume" element={<Resume />} />
