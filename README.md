@@ -5,8 +5,10 @@
 
 1. [Description](#description)
 2. [Built With](#built-with)
-3. [Acknowledgments](#acknowledgments)
-4. [Questions](#questions)
+3. [Deployed Website](#deployed-website)
+4. [Screenshot](#screenshot)
+5. [Acknowledgments](#acknowledgments)
+6. [Questions](#questions)
 
 ## Description
 
