@@ -1,6 +1,7 @@
 import React from 'react'
 import "bootstrap/dist/css/bootstrap.min.css";
 import { TabTitle } from '../../utils/helpers';
+import resume from '../../assets/resume/Rachel_Spears_Resume.pdf'
 
 const Resume = () => {
     TabTitle('Resume')
@@ -18,7 +19,7 @@ const Resume = () => {
                             Javascript. Built projects for desktop and mobile users.
                         </p>
                         <button className="resume-button">
-                            <a href='https://docs.google.com/document/d/1B4Ia-ggziD8V7VtlVb4YiCihdMo0yHaAaJ6HZWdGAuw/' className="text-light button-text">View My Resume</a>
+                            <a href={resume} className="text-light button-text">View My Resume</a>
                         </button>
                     </div>
                 </div>
