@@ -44,11 +44,11 @@ const Portfolio = () => {
             languages: 'Node.js, Express, Handlebars, Bootstrap, Javascript, MySQL, Sequelize'
         },
         {
-            name: 'Coding Quiz',
+            name: 'GitInitToWinIt',
             link: ' https://rosepetal2022.github.io/Quiz_Game/',
-            repo: 'https://github.com/Rosepetal2022/Quiz_Game',
-            description: 'A quiz game on Javascript fundementals, with persistent high scores and a timer.',
-            languages: 'Javascript, HTML, CSS'
+            repo: 'https://blooming-reef-74951.herokuapp.com/',
+            description: 'An app used to keep track of your board game scores with your friends.',
+            languages: 'Node.js, GraphQL, MongoDB, Mongoose, Express'
         }
     ]
     return (
@@ -83,3 +83,4 @@ const Portfolio = () => {
 }
 
 export default Portfolio;
+
