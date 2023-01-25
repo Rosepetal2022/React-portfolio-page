@@ -1,23 +1,25 @@
 {
   "files": {
-    "main.css": "/React-portfolio-page/static/css/main.2fc99bf2.css",
-    "main.js": "/React-portfolio-page/static/js/main.43697e9b.js",
-    "static/media/pexels-bibek-ghosh-14553715.jpg": "/React-portfolio-page/static/media/pexels-bibek-ghosh-14553715.53d0a27379b29d7e8bf1.jpg",
-    "static/media/win_photo.png": "/React-portfolio-page/static/media/win_photo.0313753e12418ec8a6b6.png",
-    "static/media/pexels-adam-spinos-7293752.jpg": "/React-portfolio-page/static/media/pexels-adam-spinos-7293752.853da40c7e35e58a914a.jpg",
+    "main.css": "/React-portfolio-page/static/css/main.3e6ebb69.css",
+    "main.js": "/React-portfolio-page/static/js/main.b5b77993.js",
+    "static/media/pexels-mikhail-nilov-7988086.jpg": "/React-portfolio-page/static/media/pexels-mikhail-nilov-7988086.55ae291b61d34b4a5e84.jpg",
+    "static/media/pexels-christina-morillo-1181673.jpg": "/React-portfolio-page/static/media/pexels-christina-morillo-1181673.b503d890d7b3c13e1c90.jpg",
+    "static/media/pexels-cottonbro-studio-3201478.jpg": "/React-portfolio-page/static/media/pexels-cottonbro-studio-3201478.351a62b92a5475927e48.jpg",
+    "static/media/profilePhoto.png": "/React-portfolio-page/static/media/profilePhoto.7de569f65076b94260e2.png",
+    "static/media/6.png": "/React-portfolio-page/static/media/6.362d9c537cb058f6189b.png",
     "static/media/5.png": "/React-portfolio-page/static/media/5.1c6101bf797309003242.png",
     "static/media/1.png": "/React-portfolio-page/static/media/1.7d3ceaece133f294874d.png",
     "static/media/0.png": "/React-portfolio-page/static/media/0.6c9bd6a6b212ca6e041c.png",
     "static/media/3.png": "/React-portfolio-page/static/media/3.b9ecd52e5c0ff79c0c2c.png",
+    "static/media/Rachel_Spears_Resume.pdf": "/React-portfolio-page/static/media/Rachel_Spears_Resume.2f7fced0bd9e60f32491.pdf",
     "static/media/4.png": "/React-portfolio-page/static/media/4.bd6ec7f18911094900f7.png",
     "static/media/2.png": "/React-portfolio-page/static/media/2.e1a92958a9e659313c76.png",
-    "static/media/Rachel_Spears_Resume.pdf": "/React-portfolio-page/static/media/Rachel_Spears_Resume.c3cc4839368f3c5f5998.pdf",
     "index.html": "/React-portfolio-page/index.html",
-    "main.2fc99bf2.css.map": "/React-portfolio-page/static/css/main.2fc99bf2.css.map",
-    "main.43697e9b.js.map": "/React-portfolio-page/static/js/main.43697e9b.js.map"
+    "main.3e6ebb69.css.map": "/React-portfolio-page/static/css/main.3e6ebb69.css.map",
+    "main.b5b77993.js.map": "/React-portfolio-page/static/js/main.b5b77993.js.map"
   },
   "entrypoints": [
-    "static/css/main.2fc99bf2.css",
-    "static/js/main.43697e9b.js"
+    "static/css/main.3e6ebb69.css",
+    "static/js/main.b5b77993.js"
   ]
 }
