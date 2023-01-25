@@ -78,7 +78,7 @@ body {
 
 /*Design for About Page starts*/
 .hero-div {
-    background-color: var(--primary-color);
+    background-color: var(--senary-color);
     height: 700px;
     padding: 1rem;
 }
@@ -170,47 +170,39 @@ body {
 /*Resume styling Starts*/
 
 .main-resume-div {
-    background-image: url("./assets/images/pexels-karolina-grabowska-5625010.jpg");
-    height: 400px;
-    background-repeat: no-repeat;
-    background-position: cover;
-}
-
-.main-resume-div button {
-    border: none;
-    background-color: var(--tertiary-color);
-    text-decoration: none;
+    height: 200px;
+    padding-top: 3rem;
+    background-color: var(--senary-color);
+    text-align: center;
 }
 
 .resume-button {
-    height: 5rem;
-    width: 20rem;
-    font-size: 2rem;
-}
-
-.resume-button-div {
-    text-align: center;
-    position: absolute;
-    top: 50%;
-    left: 40%;
-    transform: (translate(-50%, -50%));
-    color: var(--quinary-color);
+    border: none;
+    background-color: var(--tertiary-color);
+    outline: 0;
+    padding: 30px 25px;
+    width: 30%
 }
 
 .button-text {
     text-decoration: none;
 }
 
-
 .front-end-skills {
     height: 300px;
+    padding-top: 3rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
     text-align: center;
     font-size: 2rem;
-    background-color: var(--secondary-color)
+    background-color: var(--senary-color)
 }
 
 .back-end-skills {
     height: 300px;
+    padding-top: 2rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
     text-align: center;
     font-size: 2rem;
     background-color: var(--senary-color)
@@ -219,10 +211,17 @@ body {
 .resume-title {
     text-align: center;
 }
-.opening-resume {
-    background-color: var(--secondary-color);
-    margin: 2%;
- 
+
+.skills-div {
+    margin: 1rem;
+}
+
+.resume-picture {
+    background-color: var(--senary-color)
+}
+
+.resume-image {
+    margin: 1rem;
 }
 
 
@@ -249,3 +248,53 @@ body {
     }
 }
 
+@media screen and (max-width: 450px) {
+    .resume-button {
+        width: 2rem;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .front-end-skills {
+        height: 400px;
+    }
+}
+
+@media screen and (max-width: 300px) {
+    .front-end-skills {
+        height: 500px;
+        padding-right: 3rem;
+    }
+}
+
+@media screen and (max-width: 260px) {
+    .front-end-skills {
+        height: 600px;
+    }
+}
+
+
+@media screen and (max-width: 500px) {
+    .back-end-skills {
+        height: 500px;
+    }
+}
+
+@media screen and (max-width: 300px) {
+    .back-end-skills {
+        height: 700px;
+        padding-right: 3rem;
+    }
+}
+
+@media screen and (max-width: 260px) {
+    .back-end-skills {
+        height: 600px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .resume-button {
+        width: 10rem;
+    }
+}

@@ -9,14 +9,16 @@ const Resume = () => {
         <>
             <div className='main-resume-div'>
             <div className="resume-button-div font">
+               
             <button className="resume-button">
                 <a href={resume} className="text-light button-text">View My Resume</a>
             </button>
+          
             </div>
             </div>
             <div className="front-end-skills">
                     <h1 className="font-second">Front End Skills</h1>
-                        <div className="row">
+                        <div className="row flex-wrap">
                             <p className="col font">JavaScript</p>
                             <p className="col font">jQuery</p>
                             <p className="col font">React</p>
@@ -28,6 +30,20 @@ const Resume = () => {
                             <p className="col font">WordPress</p>
                             <p className="col font">Divi</p>
                         </div>
+                    </div>
+                    <div className="resume-picture d-flex justify-content-evenly">
+                        <img className="resume-image" src={require("../../assets/images/pexels-mikhail-nilov-7988086.jpg")} 
+                        style={{width: "20%"}}
+                        alt="" />
+                         <img className="resume-image" src={require("../../assets/images/pexels-cottonbro-studio-3201478.jpg")} 
+                        style={{width: "20%"}}
+                        alt="" />
+                         <img className="resume-image" src={require("../../assets/images/pexels-christina-morillo-1181673.jpg")} 
+                        style={{width: "20%"}}
+                        alt="" />
+                        
+               
+
                     </div>
 
                     <div className="back-end-skills">

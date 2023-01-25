@@ -55,7 +55,7 @@ const Portfolio = () => {
             link: 'https://michaelmichelauthor.com/',
             repo: '',
             description: '',
-            languages: 'Wordpress'
+            languages: 'Wordpress, Divi, Siteground'
         }
     ]
     return (

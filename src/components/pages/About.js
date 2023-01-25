@@ -12,9 +12,11 @@ const About = () => {
                 <div className="hero-text font-second">
                     <h1>My name is Rachel</h1>
                     <h3>I am a Web Developer</h3>
+                    <div className="resume-div">
                     <button className="about-resume-button">
                             <a href={resume} className="resume-button-text font-second">View My Resume</a>
                     </button>
+                    </div>
                 </div>
               
             </div>
