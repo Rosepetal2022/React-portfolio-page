@@ -25,7 +25,7 @@ const About = () => {
         <div>
             <h1 className="font about-me">About Me</h1>
             <p className="about-paragraph font">
-                I had a very succesful career as a Hunter/Jumper trainer in Portland, Oregon. My previous job in the horse industry gave me great skills in managment, sales, and teaching.
+                I had a very succesful career as a Hunter/Jumper trainer in Portland, Oregon. My previous job in the horse industry gave me great skills in management, sales, and teaching.
                 I suffered a career ending injury that made me turn my sights towards full stack web development. I graduated a full stack coding bootcamp and I am now actively looking for my 
                 next job in the tech industry. I am a hard worker and enjoy learning new things. I work well with others and would love to be a part of a company that would value my diverse skill set.
             </p>
