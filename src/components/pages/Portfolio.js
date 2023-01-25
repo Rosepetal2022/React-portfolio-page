@@ -49,6 +49,13 @@ const Portfolio = () => {
             repo: 'https://blooming-reef-74951.herokuapp.com/',
             description: 'An app used to keep track of your board game scores with your friends.',
             languages: 'Node.js, GraphQL, MongoDB, Mongoose, Express'
+        },
+        {
+            name: 'Price of Power',
+            link: 'https://michaelmichelauthor.com/',
+            repo: '',
+            description: '',
+            languages: 'Wordpress'
         }
     ]
     return (
@@ -66,6 +73,10 @@ const Portfolio = () => {
                                     <Card.Title className="font-second">{project.name}</Card.Title>
                                     <Card.Text className="font">
                                         {project.description}
+                                    </Card.Text>
+                                    <Card.Text className="font">
+                                        <div className="font-second card-language">languages used</div>
+                                        {project.languages}
                                     </Card.Text>
                                 </Card.Body>
                                 <Card.Footer className="text-center">
