@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/React-portfolio-page/static/css/main.3e6ebb69.css",
-    "main.js": "/React-portfolio-page/static/js/main.cd152ebc.js",
+    "main.js": "/React-portfolio-page/static/js/main.e794050e.js",
     "static/media/pexels-mikhail-nilov-7988086.jpg": "/React-portfolio-page/static/media/pexels-mikhail-nilov-7988086.55ae291b61d34b4a5e84.jpg",
     "static/media/pexels-christina-morillo-1181673.jpg": "/React-portfolio-page/static/media/pexels-christina-morillo-1181673.b503d890d7b3c13e1c90.jpg",
     "static/media/pexels-cottonbro-studio-3201478.jpg": "/React-portfolio-page/static/media/pexels-cottonbro-studio-3201478.351a62b92a5475927e48.jpg",
@@ -16,10 +16,10 @@
     "static/media/2.png": "/React-portfolio-page/static/media/2.e1a92958a9e659313c76.png",
     "index.html": "/React-portfolio-page/index.html",
     "main.3e6ebb69.css.map": "/React-portfolio-page/static/css/main.3e6ebb69.css.map",
-    "main.cd152ebc.js.map": "/React-portfolio-page/static/js/main.cd152ebc.js.map"
+    "main.e794050e.js.map": "/React-portfolio-page/static/js/main.e794050e.js.map"
   },
   "entrypoints": [
     "static/css/main.3e6ebb69.css",
-    "static/js/main.cd152ebc.js"
+    "static/js/main.e794050e.js"
   ]
 }
