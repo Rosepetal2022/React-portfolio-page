@@ -45,8 +45,8 @@ const Portfolio = () => {
         },
         {
             name: 'GitInitToWinIt',
-            link: ' https://rosepetal2022.github.io/Quiz_Game/',
-            repo: 'https://blooming-reef-74951.herokuapp.com/',
+            link: 'https://blooming-reef-74951.herokuapp.com/',
+            repo: 'https://https://github.com/frieskevin/board-game-tracker/',
             description: 'An app used to keep track of your board game scores with your friends.',
             languages: 'Node.js, GraphQL, MongoDB, Mongoose, Express'
         },
